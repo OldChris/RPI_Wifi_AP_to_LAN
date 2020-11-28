@@ -36,6 +36,9 @@ RPI_Wifi_AP_to_LAN consist of:
 * put the script in /home/pi 
 * edit values of Wifi AP and local LAN config as needed
 * add a crontab entry for root 
+`sudo crontab -e`
+enter this line at end of file:
+`@reboot /home/pi/rpi_wifi_ap_lan_bridge.sh`
 
 ## Who will use it?
 Anyone with a friendly neighbour that gives access to his/hers Wifi guest AP  
