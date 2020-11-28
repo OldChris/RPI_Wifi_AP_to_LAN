@@ -7,8 +7,8 @@
 #  Details Neighbours Wifi Access Point
 #  (change as required)
 #
-nb_ssid="guest24"
-nb_pass="guest24password"
+nb_ssid="guest_ap"
+nb_pass="guest_ap_password"
 keymgmt="WPA-PSK"
 country="NL"
 #

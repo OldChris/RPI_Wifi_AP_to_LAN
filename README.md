@@ -31,10 +31,37 @@ Your fail-over LAN has a DHCP service so your computers should all connect after
 
 ## How to build?
 RPI_Wifi_AP_to_LAN consist of:
-* A Rapberry PI with Wifi and Ethernet (RJ45 connector)
+* A Raspberry PI with Wifi and Ethernet (RJ45 connector)
 * Buster OS
 * put the script in /home/pi 
 * edit values of Wifi AP and local LAN config as needed
+```bash
+#  Details Neighbours Wifi Access Point
+#  (change as required)
+#
+nb_ssid="guest_ap"
+nb_pass="guest_ap_password"
+keymgmt="WPA-PSK"
+country="NL"
+#
+#  Details of the new local network with DHCP 
+#  (change as required)
+#
+ip_address="192.168.2.1"
+netmask="255.255.255.0"
+dhcp_range_start="192.168.2.2"
+dhcp_range_end="192.168.2.100"
+dhcp_time="12h"
+#
+#  Local Network Interfaces
+#  (you should be fine with thes values.)
+# 
+wlan="wlan0"
+#
+eth="eth0"
+#
+```
+
 * add a crontab entry for root 
 `sudo crontab -e`
 enter this line at end of file:
