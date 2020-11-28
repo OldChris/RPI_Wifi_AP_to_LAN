@@ -17,6 +17,7 @@ Traffic from the ethernet port is forwarded to Wifi vice versa, so all computers
 Prepare yourself:
 * Discus fail-over scenario with neighbour and agree
 * Maybe neighbour has to configure a guest AP 
+* Build the Raspberry Pi as described below
 * Enter Wifi AP of neighbour in the script
 * Shutdown and store Raspberry Pi.
 * Make sure that all computers are on a single switch that has a connection to your ISP's Modem, do connect computers to other ISP's Modem ports
