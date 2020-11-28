@@ -11,6 +11,7 @@ The script is based on:
 ## How does it work?
 RPI_Wifi_AP_to_LAN makes a connection with the Wifi AP of the neighbour (we assume it has Internet connection)
 This should be a so-called Guest AP with no access to neighbour's LAN, only connection to Internet
+
 Prepare yourself:
 * Discus fail-over scenario with neighbour and agree
 * Maybe neighbour has to configure a guest AP 
@@ -37,7 +38,7 @@ RPI_Wifi_AP_to_LAN consist of:
 * add a crontab entry for root 
 
 ## Who will use it?
-Anyone with a friendly neighbour that gives access to his/hers Wifi guest AP
+Anyone with a friendly neighbour that gives access to his/hers Wifi guest AP  
 This can your home neighbour or (small) office neighbour
 Talk to them and make arrangments before your ISP connection fails.
 
