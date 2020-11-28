@@ -31,7 +31,7 @@ Your fail-over LAN has a DHCP service so your computers should all connect after
 
 ## How to build?
 RPI_Wifi_AP_to_LAN consist of:
-* A Rapberry PI
+* A Rapberry PI with Wifi and Ethernet (RJ45 connector)
 * Buster OS
 * put the script in /home/pi 
 * edit values of Wifi AP and local LAN config as needed
@@ -43,5 +43,4 @@ This can your home neighbour or (small) office neighbour
 Talk to them and make arrangments before your ISP connection fails.
 
 ## Goal , next steps
-
-Any suggestions are welcome.
+Adding of a small LCD with status would be nice.
