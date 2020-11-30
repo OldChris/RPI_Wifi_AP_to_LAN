@@ -64,7 +64,11 @@ wlan="wlan0"
 eth="eth0"
 #
 ```
-
+* Or, create a file named config.txt on a USB stick and enter the parameters in this files
+```file config.txt
+nb_ssid = guest24
+nb_pass=formyguests
+```
 * add a crontab entry for root 
 `sudo crontab -e`
 enter this line at end of file:
