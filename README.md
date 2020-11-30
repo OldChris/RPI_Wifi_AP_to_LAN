@@ -13,6 +13,7 @@ RPI_Wifi_AP_to_LAN makes a connection with the Wifi AP of the neighbour (we assu
 This should be a so-called Guest AP with no access to neighbour's LAN, only connection to Internet  
 It also create a network with DHCP on the Ethernet port (RJ45) of the Raspberry Pi.
 Traffic from the ethernet port is forwarded to Wifi vice versa, so all computers will have Internet connection via the Raspberry Pi.
+You can change your specific settings in the script itself, or in a configuration file on a USB stick and place the USB stick in the Raspberry Pi
 
 Prepare yourself:
 * Discus fail-over scenario with neighbour and agree
