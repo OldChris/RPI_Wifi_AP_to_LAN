@@ -64,15 +64,16 @@ wlan="wlan0"
 eth="eth0"
 #
 ```
-* Or, create a file named config.txt on a USB stick and enter the parameters in this files
-```file config.txt
+* Or, create a file named `config.txt` on a USB stick and enter the parameters in this files  
+Example of config.txt 
+```
 nb_ssid = guest24
 nb_pass=formyguests
 ```
 * add a crontab entry for root 
 `sudo crontab -e`
 enter this line at end of file:
-`@reboot /home/pi/rpi_wifi_ap_lan_bridge.sh`
+`@reboot /home/pi/rpi_wifi_ap_lan_bridge.sh > /home/pi/rpi_wifi_lan_bridge.log 2>&1`
 
 ## Who will use it?
 Anyone with a friendly neighbour that gives access to his/hers Wifi guest AP  
